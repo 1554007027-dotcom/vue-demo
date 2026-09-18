@@ -1,38 +1,28 @@
-# my-vue-app
+# Vue Demo - 用户管理系统（前端）
 
-This template should help get you started developing with Vue 3 in Vite.
+配套 Spring Boot 后端的 Vue 3 前端，实现登录、用户列表、增删改查。
 
-## Recommended IDE Setup
+## 技术栈
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue 3** - 前端框架
+- **Vue Router 4** - 路由
+- **Axios** - HTTP 请求
+- **Element Plus** - UI 组件库
+- **Vite** - 构建工具
 
-## Recommended Browser Setup
+## 功能
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- 登录（JWT 认证）
+- 用户列表
+- 新增用户（弹窗表单）
+- 编辑用户（弹窗表单）
+- 删除用户（确认弹窗）
+- 退出登录
+- Token 自动携带
 
-## Customize configuration
+## 快速开始
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 1. 安装依赖
 
-## Project Setup
-
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
